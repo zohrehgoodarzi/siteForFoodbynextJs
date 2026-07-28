@@ -39,7 +39,7 @@ export async function getServerSideProps(context) {
           return item
         }
 
-        else if(time&&!difficulty&&time.length){
+        else if(time&&!difficulty&&timeResult.length){
           return item
         }
 
